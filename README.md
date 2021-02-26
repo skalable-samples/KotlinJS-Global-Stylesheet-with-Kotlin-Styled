@@ -8,7 +8,7 @@
 Here at sKalable we love all things Kotlin. We use it for working on the FrontEnd, BackEnd and everywhere in between.
 
 We are particularly excited about making code as clean and easy to use as possible within the Kotlin ecosystem. Enabling the formation of
-an environment that encourages engineers to develop fast, all while applying effective and understandable patterns. We are very passionate about that here @sKalable.
+an environment that encourages engineers to develop fast, all while applying effective and understandable patterns. We are very passionate about that @sKalable.
 
 Today we will be covering Global Styles in CSS in a KotlinJS project.
 
@@ -47,7 +47,7 @@ _So how do we address this for all images?_
 
 ## Going Global
 
-Applying global styles can have a huge range of benifits for your project. You can decide default styles and fonts for your basic tags such as `p` or `h1` `h2` etc.
+Applying global styles can have a huge range of benefits for your project. You can decide default styles and fonts for your basic tags such as `p` or `h1` `h2` etc.
 
 To add a global style for your project there are a few approaches. What we tend to prefer @sKalable is [SRP](https://en.wikipedia.org/wiki/Single-responsibility_principle) - _"A class should have only one reason to change"_
 
@@ -57,7 +57,7 @@ The message here is to group your logic into separate areas of concern. To achie
 object GlobalStyles : StyleSheet("GlobalStyles") {}
 ```
 
-While currently bare we need to look to the ever brilliant [Kotlin-Styled](https://github.com/JetBrains/kotlin-wrappers/tree/master/kotlin-styled) library for KotlinJS.
+While currently bare, we need to look to the ever brilliant [Kotlin-Styled](https://github.com/JetBrains/kotlin-wrappers/tree/master/kotlin-styled) library for KotlinJS.
 
 **Note:** _at the time of writing the global style approach is non-functional with the listed approach within the README.md_
 
