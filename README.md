@@ -156,7 +156,7 @@ Now where getting somewhere. We have applied the image css to all `img` tags wit
 
 ## Optimise for scalability
 
-Every web engineer knows how important it is to keep you're `css` organised and clean. The best way to apply this philosophy is by _starting_ with it. Since we have everything working correctly lets abstract the individual `css` for each component to keep readability high and keep things `sKalable` _(see what I did there?)_
+Every web engineer knows how important it is to keep your `css` organised and clean. The best way to apply this philosophy is by _starting_ with it. Since we have everything working correctly lets abstract the individual `css` for each component to keep readability high and keep things `sKalable` _(see what I did there?)_
 
 
 Back in our `GlobalStyles` we are going to abstract the image style into its own `RuleSet`. After we will apply it back into the `img` tag within the `body`.
